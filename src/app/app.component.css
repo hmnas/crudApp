@@ -1,0 +1,42 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.main {
+    width: 100%;
+    margin: 0 10px;
+    padding-top: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+
+.mdc-data-table__cell,
+.mdc-data-table__header-cell {
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* .mat-sort-header-container {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    letter-spacing: normal;
+    justify-content: center;
+    outline: 0;
+} */
+mat-sort-header-container mat-focus-indicator ng-tns-c1267148319-4 {
+    justify-content: center;
+}
+
+td,
+th {
+    width: 25%;
+    text-align: center;
+}
